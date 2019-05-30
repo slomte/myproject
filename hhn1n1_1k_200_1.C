@@ -85,7 +85,7 @@ void hhn1n1_1k_200_1::Loop()
       // if (Cut(ientry) < 0) continue;
 //--------------------------------------------------------------
 
-      //truthtop.clear();
+     //clear the vectors
 
 
 
@@ -99,13 +99,6 @@ float Weight = (0.0476*35.9*1000)/(10000);
 //Particles
 int NPar=Particle_size;
 for(int i=0; i<NPar; i++){
-
-
-//if(abs(Particle_PID[i])==5)
-
-
-
-
 
   //stop
   if(abs(Particle_PID[i])==1000006) {
@@ -210,7 +203,7 @@ histo[21]->Fill(ht, Weight);
 
    }//event loop
    this->Output();
-}//void loop
+}
 //-------------------------------------------
 Int_t hhn1n1_1k_200_1::Output()
 {
