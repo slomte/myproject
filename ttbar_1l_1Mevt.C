@@ -197,7 +197,7 @@ histo[17]->Fill(Nleps, Weight);
 
     }//event loop
    this->Output();
-}//void loop
+}
 //-------------------------------------------
 Int_t ttbar_1l_1Mevt::Output()
 {
