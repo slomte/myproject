@@ -92,7 +92,7 @@ void ttbar_1l_1Mevt::Loop()
 
 //mycode
 
-float Weight = (102.1837*35.9*1000)/(1000000);
+float Weight = (102.1837*35.9*1000)/(2000000);
 
 //MET
 Float_t met = MissingET_MET[0];
