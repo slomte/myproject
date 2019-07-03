@@ -10,6 +10,6 @@ ttbar_1l_2Mevt.C ttbar_1l_2Mevt.h are the file names.
 
 
 ------------------------------------
-Then, we have other variables like MT, MT2, Mlb. These are plotted using MadAnalysis5. They are found in the file stop_topN2_ana.cpp and stop_topN2_ana.h
+Then, we have other variables like MT, MT2, Mlb. These are plotted using MadAnalysis5. They are found in the file stop_topN2_ana.cpp and stop_topN2_ana.h 
 
 
